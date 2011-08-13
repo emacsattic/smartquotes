@@ -181,8 +181,8 @@
 	    (eq major-mode 'rst-mode))
     (local-set-key [(control \")] 'smartq-cycle-double-quotes)
     (local-set-key [(control \')] 'smartq-cycle-single-quotes)
-    (local-set-key [(?.)] 'smartq-smart-period)
-    (local-set-key [(?-)] 'smartq-smart-hyphen)
+    ;;(local-set-key [(?.)] 'smartq-smart-period)
+    ;;(local-set-key [(?-)] 'smartq-smart-hyphen)
     ))
 
 (provide 'smartquotes)
